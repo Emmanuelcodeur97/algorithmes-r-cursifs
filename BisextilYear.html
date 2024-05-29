@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Année bisextile</title>
+</head>
+<body>
+    <h1>Année bisextile</h1>
+    <script>
+            function estBissextile(annee) {
+                if ((annee % 4 === 0 && annee % 100 !== 0) || (annee % 400 === 0)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+    // Exemples d'utilisation
+    console.log(estBissextile(2020)); // true
+    console.log(estBissextile(1900)); // false
+    console.log(estBissextile(2000)); // true
+
+
+
+    </script>
+    
+</body>
+</html>

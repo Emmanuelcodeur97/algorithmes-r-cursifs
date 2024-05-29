@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarification billet</title>
+</head>
+<body>
+    <h1>Tarification billet</h1>
+    <script>
+        function tarificationDesBillets(age) {
+            if (age <= 12) {
+                return "Le prix du billet est de 10 $";
+            } else if (age >= 13 && age <= 17) {
+                return "Le prix du billet est de 15 $";
+            } else {
+                return "Le prix du billet est de 20 $";
+            }
+}
+
+// Exemples d'utilisation
+console.log(tarificationDesBillets(10)); // Le prix du billet est de 10 $
+console.log(tarificationDesBillets(15)); // Le prix du billet est de 15 $
+console.log(tarificationDesBillets(25)); // Le prix du billet est de 20 $
+
+            
+
+
+
+    </script>
+    
+</body>
+</html>
